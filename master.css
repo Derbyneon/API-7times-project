@@ -1,0 +1,66 @@
+body {
+    background-color: #ADD8E6;
+    font-family: Arial, sans-serif;
+    background: url('C:/Users/jacob/OneDrive/Documents/7timer_project/images/back.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+#city-display {
+    display: none;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    max-height: 2cm;
+    overflow: hidden;
+}
+
+#city-display .day {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    margin: 10px; /* Ajoutez des marges à gauche et à droite */
+    width: 100px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+}
+
+#city-select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#temperature-unit {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
